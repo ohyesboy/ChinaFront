@@ -1,11 +1,18 @@
+
+export class MenuCate {
+  Name: string;
+  Items: MenuItem[];
+}
+
+
 export class MenuItem {
-  title: string;
-  size: Size[]
+  Name: string;
+  Variations: Size[]
 }
 
 export class Size {
-  label: string;
-  price: number
+  Desc: string;
+  Price: number
 }
 
 export class SelectedItem {

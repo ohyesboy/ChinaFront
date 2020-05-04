@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, Output,EventEmitter } from '@angular/core';
-import { MenuItem, SelectedItem, Size } from "../models/menu-item";
+import { MenuItem, SelectedItem, Size, MenuCate } from "../models/menu-item";
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'china-menu',
@@ -10,39 +11,26 @@ export class MenuComponent implements OnInit {
 
   @Input() selected: SelectedItem;
   @Output() emitter: EventEmitter<SelectedItem> = new EventEmitter<SelectedItem>();
-  items: MenuItem[] =[
-    {
-      title:"Egg roll",
-      size:[
-        {
-          label: null,
-          price:10
-        }
-      ]
-    },
-    {
-      title:"Coke",
-      size:[
-        {
-          label: "large",
-          price:2.5
-        },
-        {
-          label: "small",
-          price:1.5
-        }
-      ]
-    }
-  ]
+  cates: MenuCate[]
+
+  /**
+   *
+   */
+  constructor(private dataService: DataService) {
+
+  }
 
   ngOnInit(): void {
+    this.dataService.getMenuCates().subscribe(data=>{
+      this.cates = data as MenuCate[];
+    })
   }
 
   selectItem(title: string, size: Size){
       this.selected =  {
         title : title,
-        label :size.label,
-        price : size.price
+        label :size.Desc,
+        price : size.Price
 
       }
 

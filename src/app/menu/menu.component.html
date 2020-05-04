@@ -1,10 +1,17 @@
 <div *ngIf="selected">You selected :{{selected.title}}({{selected.label}}), {{selected.price}}
 </div>
-<div *ngFor="let item of items">
-  <label>{{item.title}}</label>
-  <ul>
-    <li (click)="selectItem(item.title, s)" *ngFor="let s of item.size">${{s.price}}
-      <label   *ngIf="s.label" [ngClass]="{lab:true}"> ({{s.label}})</label>
-    </li>
-  </ul>
+
+<div *ngFor="let cate of cates">
+  <h2>{{cate.Name}}</h2>
+  <div  *ngFor="let item of cate.Items">
+    <div *ngIf="item">
+    <label>{{item.Name}}</label>
+    <ul>
+      <li (click)="selectItem(item.Name, s)" *ngFor="let s of item.Variations">${{s.Price}}
+        <label   *ngIf="s.Desc" [ngClass]="{lab:true}"> ({{s.Desc}})</label>
+      </li>
+    </ul>
+    </div>
+  </div>
 </div>
+

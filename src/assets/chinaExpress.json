@@ -1,0 +1,2554 @@
+[
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 1.25,
+            "Desc": null
+          }
+        ],
+        "Name": "1. Crispy Spring Roll (each)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 1.3,
+            "Desc": null
+          }
+        ],
+        "Name": "2. Roast Pork Roll (each)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 1.35,
+            "Desc": null
+          }
+        ],
+        "Name": "3. Shrimp Roll (each)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 3.95,
+            "Desc": null
+          }
+        ],
+        "Name": "4. Fried Wonton (8)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.95,
+            "Desc": "S"
+          },
+          {
+            "Price": 10.35,
+            "Desc": "L"
+          }
+        ],
+        "Name": "5. Boneless Spare Ribs"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.95,
+            "Desc": "S"
+          },
+          {
+            "Price": 10.35,
+            "Desc": "L"
+          }
+        ],
+        "Name": "6. B-B-Q Spare Ribs"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.15,
+            "Desc": null
+          }
+        ],
+        "Name": "7. Steamed Dumplings (8)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.15,
+            "Desc": null
+          }
+        ],
+        "Name": "8. Fried Dumplings (8)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.75,
+            "Desc": null
+          }
+        ],
+        "Name": "9. Beef Teriyaki (4)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.15,
+            "Desc": null
+          }
+        ],
+        "Name": "10. Szechuan Wonton"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 4.95,
+            "Desc": null
+          }
+        ],
+        "Name": "11. Krab Rangoon (10)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.99,
+            "Desc": null
+          }
+        ],
+        "Name": "12. Pu Pu Platter (For 2)"
+      }
+    ],
+    "Name": "APPETIZERS"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 4.99,
+            "Desc": "Plain"
+          },
+          {
+            "Price": 5.45,
+            "Desc": "w. Plain Fried Rice"
+          },
+          {
+            "Price": 6.15,
+            "Desc": "w. Roast Pork Fried Rice"
+          },
+          {
+            "Price": 6.55,
+            "Desc": "w. Beef Fried Rice"
+          },
+          {
+            "Price": 6.55,
+            "Desc": "w. Shrimp Fried Rice"
+          }
+        ],
+        "Name": "A1. Chicken Teriyaki"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.55,
+            "Desc": "Plain"
+          },
+          {
+            "Price": 6.35,
+            "Desc": "w. Plain Fried Rice"
+          },
+          {
+            "Price": 6.95,
+            "Desc": "w. Roast Pork Fried Rice"
+          },
+          {
+            "Price": 7.5,
+            "Desc": "w. Beef Fried Rice"
+          },
+          {
+            "Price": 7.5,
+            "Desc": "w. Shrimp Fried Rice"
+          }
+        ],
+        "Name": "A2. Fried Chicken Wings (8)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.35,
+            "Desc": "Plain"
+          },
+          {
+            "Price": 5.95,
+            "Desc": "w. Plain Fried Rice"
+          },
+          {
+            "Price": 6.75,
+            "Desc": "w. Roast Pork Fried Rice"
+          },
+          {
+            "Price": 7.15,
+            "Desc": "w. Beef Fried Rice"
+          },
+          {
+            "Price": 7.15,
+            "Desc": "w. Shrimp Fried Rice"
+          }
+        ],
+        "Name": "A3. Fried Jumbo Shrimp (5)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 4.55,
+            "Desc": "Plain"
+          },
+          {
+            "Price": 5.35,
+            "Desc": "w. Plain Fried Rice"
+          },
+          {
+            "Price": 6.15,
+            "Desc": "w. Roast Pork Fried Rice"
+          },
+          {
+            "Price": 6.55,
+            "Desc": "w. Beef Fried Rice"
+          },
+          {
+            "Price": 6.55,
+            "Desc": "w. Shrimp Fried Rice"
+          }
+        ],
+        "Name": "A5. Fried Scallop (10)"
+      }
+    ],
+    "Name": "SPECIALTIES"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 2.5,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 3.75,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "13. Egg Drop Soup"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 2.5,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 3.75,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "14. Chicken Rice Soup"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 2.5,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 3.95,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "15. Chicken Noodle Soup"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 2.5,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 3.95,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "16. Wonton Soup"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 2.75,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 3.95,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "17. Wonton Noodle Soup"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 2.75,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 3.95,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "18. Wonton Egg Drop Soup"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 2.75,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 4.75,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "19. Bean Curd w. Veg Soup"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.95,
+            "Desc": null
+          }
+        ],
+        "Name": "20. Seafood Vegetable Soup"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.15,
+            "Desc": null
+          }
+        ],
+        "Name": "21. Chicken Yat Gaw Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.15,
+            "Desc": null
+          }
+        ],
+        "Name": "21. Pork Yat Gaw Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.15,
+            "Desc": null
+          }
+        ],
+        "Name": "22. House Special Soup (for 2)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 2.95,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 4.95,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "23. Hot & Sour Soup"
+      }
+    ],
+    "Name": "SOUPS"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 4.85,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 7.95,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "24. Chicken Fried Rice"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 4.85,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 7.95,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "24. Pork Fried Rice"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.45,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 8.65,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "25. Beef Fried Rice"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.45,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 8.65,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "25. Shrimp Fried Rice"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.75,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "26. House Special Fried Rice"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 4.85,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 7.95,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "27. Vegetable Fried Rice"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 3.99,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 6.15,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "28. Plain Fried Rice"
+      }
+    ],
+    "Name": "FRIED RICE"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 5.45,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 8.45,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "29. Pork Lo Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.45,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 8.45,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "30. Chicken Lo Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.85,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 8.99,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "31. Fresh Shrimp Lo Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.85,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 8.99,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "32. Beef Lo Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.15,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 9.45,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "33. House Special Lo Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.45,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 8.45,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "34. Vegetable Lo Mein"
+      }
+    ],
+    "Name": "LO MEIN"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 8.55,
+            "Desc": null
+          }
+        ],
+        "Name": "35. Pork Mei Fun"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.55,
+            "Desc": null
+          }
+        ],
+        "Name": "35. Chicken Mei Fun"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": null
+          }
+        ],
+        "Name": "36. Shrimp Mei Fun"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": null
+          }
+        ],
+        "Name": "36. Beef Mei Fun"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.55,
+            "Desc": null
+          }
+        ],
+        "Name": "37. House Special Mei Fun"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.55,
+            "Desc": null
+          }
+        ],
+        "Name": "38. Vegetable Mei Fun"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.95,
+            "Desc": null
+          }
+        ],
+        "Name": "39. Singapore Mei Fun"
+      }
+    ],
+    "Name": "MEI FUN"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 5.95,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 8.75,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "40. Chicken Chow Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.95,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 8.75,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "40. Pork Chow Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.95,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 8.75,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "42. Vegetable Chow Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.25,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 8.95,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "43. Shrimp Chow Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.25,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 8.95,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "44. Beef Chow Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.55,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.95,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "45. House Special Chow Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.95,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 8.75,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "40. Chicken Chop Suey"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.95,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 8.75,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "41. Pork Chop Suey"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.95,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 8.75,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "42. Vegetable Chop Suey"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.25,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 8.95,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "43. Shrimp Chop Suey"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.25,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 8.95,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "44. Beef Chop Suey"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.55,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.95,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "45. House Special Chop Suey"
+      }
+    ],
+    "Name": "CHOW MEIN OR CHOP SUEY"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "46. Pork w. Mixed Vegetables"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "47. Pork w. Oyster Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "48. Pork w. Chinese Vegetable"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "49. Pork w. Broccoli"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "50. Pork w. Mushroom"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "51. Pork w. Snow Peas"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "52. Moo Shu Pork (w. 4 Pancakes)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "53. Double Sauteed Sliced Pork"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "54. Pork w. String Beans Szechuan Style"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "55. Shredded Pork Szechuan Style"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "56. Shredded Pork Garlic Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "57. Pork w. Eggplant w. Garlic Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "58. Pork w. Garlic Sauce"
+      }
+    ],
+    "Name": "FRESH PORK"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 6.25,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "60. Beef w. Mixed Vegetable"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.25,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "61. Beef w. Broccoli"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.25,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "62. Pepper Steak w. Onion"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.25,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "63. Beef w. Chinese Vegetable"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "64. Beef w. Snow Peas"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "65. Mu Shu Beef (w. 4 Pancakes)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.25,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "66. Beef w. Oyster Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.25,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "67. Beef w. Mushroom"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "68. Beef w. String Beans Szechuan Style"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "69. Kung Pao Beef"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "70. Beef Szechuan Style"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "71. Beef w. Garlic Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "72. Beef w. Eggplant in Garlic Sauce"
+      }
+    ],
+    "Name": "BEEF"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "73. Chicken w. Mixed Vegetable"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "74. Chicken w. Broccoli"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "75. Chicken w. Chinese Vegetable"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "76. Chicken w. Almond Ding"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "77. Chicken w. Snow Peas"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "78. Chicken w. Black Bean Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "79. Moo Goo Gai Pan"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "80. Curry Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "81. Mu Shu Chicken (w. 4 Pancakes)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "82. Chicken w. Cashew Nuts"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "83. Lemon Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "84. Boneless Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "85. Chicken w. Eggplant w. Garlic Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "86. Chicken Szechuan Style"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "87. Kung Pao Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "88. Chicken w. String Bean Szechuan Style"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "89. Chicken Hunan Style"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "90. Chicken w. Garlic Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "91. Bourbon Chicken"
+      }
+    ],
+    "Name": "CHICKEN"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 6.35,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 10.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "93. Shrimp w. Broccoli"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.35,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 10.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "94. Shrimp w.Snow Peas"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.35,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 10.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "95. Shrimp w. Lobster Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.35,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 10.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "96. Shrimp w. Black Bean Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.35,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 10.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "97. Shrimp w. Mushrooms"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.35,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 10.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "98. Shrimp w. Chinese Vegetable"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.35,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 10.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "99. Shrimp w. Oyster Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "100. Mu Shu Shrimp (w. 4 pancakes)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "101. Shrimp w. Mixed Vegetables"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "102. Shrimp w. Cashew Nuts"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "103. Shrimp Hunan Style"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "104. Kung Pao Shrimp"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "105. Shrimp in Garlic Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "106. Shrimp w. Curry Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "107. Shrimp Szechuan Style"
+      }
+    ],
+    "Name": "SEAFOOD"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 8.95,
+            "Desc": null
+          }
+        ],
+        "Name": "108. Mu Shu Vegetable (w. 4 pancakes)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.95,
+            "Desc": null
+          }
+        ],
+        "Name": "109. Green Jade Vegetable"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.95,
+            "Desc": null
+          }
+        ],
+        "Name": "110. Mixed Vegetables"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.95,
+            "Desc": null
+          }
+        ],
+        "Name": "111. Sauteed Broccoli"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.95,
+            "Desc": null
+          }
+        ],
+        "Name": "112. Sauteed String Beans"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.95,
+            "Desc": null
+          }
+        ],
+        "Name": "113. Mapo Tofu"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.95,
+            "Desc": null
+          }
+        ],
+        "Name": "114. Eggplant w. Garlic Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.95,
+            "Desc": null
+          }
+        ],
+        "Name": "115. Broccoli w. Garlic Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.95,
+            "Desc": null
+          }
+        ],
+        "Name": "117. Bean Curd w. Garlic Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.95,
+            "Desc": null
+          }
+        ],
+        "Name": "116. Bean Curd w. Szechuan Style"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.95,
+            "Desc": null
+          }
+        ],
+        "Name": "118. Buddhist Delight"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.95,
+            "Desc": null
+          }
+        ],
+        "Name": "119. Sauteed Bean Sprouts w. Ginger & Scallion"
+      }
+    ],
+    "Name": "VEGETABLES"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 8.15,
+            "Desc": null
+          }
+        ],
+        "Name": "120. Roast Pork Egg Foo Young"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.15,
+            "Desc": null
+          }
+        ],
+        "Name": "121. Chicken Egg Foo Young"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.55,
+            "Desc": null
+          }
+        ],
+        "Name": "122. Beef Egg Foo Young"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.55,
+            "Desc": null
+          }
+        ],
+        "Name": "123. Shrimp Egg Foo Young"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.15,
+            "Desc": null
+          }
+        ],
+        "Name": "124. Vegetable Egg Foo Young"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.15,
+            "Desc": null
+          }
+        ],
+        "Name": "125. House Special Egg Foo Young"
+      }
+    ],
+    "Name": "EGG FOO YOUNG"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 5.95,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 8.99,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "126. Sweet & Sour Pork"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.15,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 9.99,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "127. Sweet & Sour Shrimp"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.95,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 8.99,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "128. Sweet & Sour Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.15,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "129. Sweet & Sour Delight"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt"
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt"
+          }
+        ],
+        "Name": "130. Honey Chicken"
+      }
+    ],
+    "Name": "SWEET & SOUR"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C1. Chicken Chow Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C1. Pork Chow Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C2. Shrimp Chow Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C2. Beef Chow Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C3. Pork w. Chinese Veg"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C4. Pepper Steak w. Onion"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C5. Shrimp w. Broccoli"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C6. Barbecued Spare Ribs"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C6. Boneless Spare Ribs"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C7. Beef w. Broccoli"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C7. Pork w. Broccoli"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C7. Chicken w. Broccoli"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C8. Chicken w. Cashew Nuts"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C9. Moo Goo Gai Pan"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C10. Shrimp w. Lobster Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C11. Roast Pork Egg Foo Young"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C12. Sweet & Sour Pork"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C12. Sweet & Sour Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C13. Pork Lo Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C13. Chicken Lo Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C15. Shrimp w. Garlic Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C16. Chicken w. Garlic Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C16. Pork w. Garlic Sauce"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C17. General Tso's Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C18. Sesame Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C19. Kung Po Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C20. Chicken w. String Bean"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C20. Beef w. String Bean"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C21. Chicken w, Mixed Veg"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C21.Beef w, Mixed Veg"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C22. Chicken w. Mushroom"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C23. Pork w. Bean Sprout"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C24. Orange Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C25. Curry Beef"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C25. Curry Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C26. Hunan Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C27. Szechuan Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C27. Szechuan Beef"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C28. House Special Lo Mein"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 8.35,
+            "Desc": "Combo"
+          }
+        ],
+        "Name": "C28a. Bourbon Chicken"
+      }
+    ],
+    "Name": "ALL DAY SPECIAL COMBINATION PLATTER"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 8.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "D1. Steamed Bean Curd w. Mixed Veg"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 8.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "D2. Steamed Pork w. Mixed Veg"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 8.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "D3. Steamed Chicken w. Mixed Veg"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.15,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.15,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "D4. Steamed Beef w. Mixed Veg"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.65,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.95,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "D5. Steamed Shrimp w. Mixed Veg"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 8.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "D6. Steamed Chicken w. Broccoli"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 5.99,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 8.99,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "D6. Steamed Beef w. Broccoli"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 6.65,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 9.95,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "D7. Steamed Shrimp w. Broccoli"
+      }
+    ],
+    "Name": "WEIGHT WATCH SECTION"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 11.99,
+            "Desc": null
+          }
+        ],
+        "Name": "S 1. Happy Family"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 13.15,
+            "Desc": null
+          }
+        ],
+        "Name": "S 3. Seafood Combination"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.95,
+            "Desc": null
+          }
+        ],
+        "Name": "S 4. Dragon & Phoenix"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 11.95,
+            "Desc": null
+          }
+        ],
+        "Name": "S 5. Subgum Wontom"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.55,
+            "Desc": null
+          }
+        ],
+        "Name": "S 6. House Crispy Noodles"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.55,
+            "Desc": null
+          }
+        ],
+        "Name": "S 7. Tung Ting Shrimp"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.75,
+            "Desc": null
+          }
+        ],
+        "Name": "S 8. Pineapple Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.99,
+            "Desc": null
+          }
+        ],
+        "Name": "S 9. Butterfly Shrimp"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.95,
+            "Desc": null
+          }
+        ],
+        "Name": "S10. Sesame Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.75,
+            "Desc": null
+          }
+        ],
+        "Name": "S10A. Sesame Beef"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.55,
+            "Desc": null
+          }
+        ],
+        "Name": "S11. Triple Shredded"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.75,
+            "Desc": null
+          }
+        ],
+        "Name": "S12. Four Seasons"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.75,
+            "Desc": null
+          }
+        ],
+        "Name": "S13. Orange Flavor Beef"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.95,
+            "Desc": null
+          }
+        ],
+        "Name": "S15. Orange Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 11.75,
+            "Desc": null
+          }
+        ],
+        "Name": "S17. Perfect Match"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.95,
+            "Desc": null
+          }
+        ],
+        "Name": "S18. General Tso's Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.75,
+            "Desc": null
+          }
+        ],
+        "Name": "S19. General Tso's Shrimp"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.75,
+            "Desc": null
+          }
+        ],
+        "Name": "S20. Hunan Triple"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.75,
+            "Desc": null
+          }
+        ],
+        "Name": "S21. Chicken & Beef Szechuan Style"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.45,
+            "Desc": null
+          }
+        ],
+        "Name": "S23. Tai Chien Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.55,
+            "Desc": null
+          }
+        ],
+        "Name": "S24. Triple Delight"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.75,
+            "Desc": null
+          }
+        ],
+        "Name": "S25. Shrimp & Pork Hunan Style"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 11.95,
+            "Desc": null
+          }
+        ],
+        "Name": "S26. Seafood Twin Delight"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.75,
+            "Desc": null
+          }
+        ],
+        "Name": "S27. Mongolian Beef"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.75,
+            "Desc": null
+          }
+        ],
+        "Name": "S27. Mongolian Chicken"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.99,
+            "Desc": null
+          }
+        ],
+        "Name": "S28. Mongolian Shrimp"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 10.55,
+            "Desc": null
+          }
+        ],
+        "Name": "S30. Shrimp & Chicken w. Broccoli"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 9.55,
+            "Desc": "Chicken"
+          },
+          {
+            "Price": 9.55,
+            "Desc": "Pork"
+          },
+          {
+            "Price": 9.55,
+            "Desc": "Beef"
+          },
+          {
+            "Price": 9.55,
+            "Desc": "Shrimp"
+          }
+        ],
+        "Name": "S31. Pad Thai"
+      }
+    ],
+    "Name": "HOUSE SPECIALTIES"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 22.99,
+            "Desc": null
+          }
+        ],
+        "Name": "Family Special A"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 33.99,
+            "Desc": null
+          }
+        ],
+        "Name": "Family Special B"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 43.99,
+            "Desc": null
+          }
+        ],
+        "Name": "Family Special C"
+      }
+    ],
+    "Name": "FAMILY SPECIAL"
+  },
+  {
+    "Items": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "Name": "LUNCH SPECIAL"
+  },
+  {
+    "Items": [
+      {
+        "Variations": [
+          {
+            "Price": 1.0,
+            "Desc": "Can"
+          }
+        ],
+        "Name": "Soda"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 2.0,
+            "Desc": "Pt."
+          },
+          {
+            "Price": 3.0,
+            "Desc": "Qt."
+          }
+        ],
+        "Name": "White Rice"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 0.5,
+            "Desc": null
+          }
+        ],
+        "Name": "Fortune Cookies (4 pcs)"
+      },
+      {
+        "Variations": [
+          {
+            "Price": 0.5,
+            "Desc": null
+          }
+        ],
+        "Name": "Crispy Noodles (A Bag)"
+      }
+    ],
+    "Name": "SIDE ORDER"
+  }
+]
