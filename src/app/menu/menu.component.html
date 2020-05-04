@@ -4,11 +4,11 @@
 <div *ngFor="let cate of cates">
   <h2>{{cate.Name}}</h2>
   <div  *ngFor="let item of cate.Items">
-    <div *ngIf="selected">
+    <div *ngIf="item">
     <label>{{item.Name}}</label>
     <ul>
       <li (click)="selectItem(item.Name, s)" *ngFor="let s of item.Variations">${{s.Price}}
-        <label   *ngIf="s.Desc" [ngClass]="{lab:true}"> ({{s.Desc}})</label>
+        <label   *ngIf="s.Desc" class="itemSize"> ({{s.Desc}})</label>
       </li>
     </ul>
     </div>

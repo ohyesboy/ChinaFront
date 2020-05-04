@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SelectedItem } from './models/menu-item';
+import { SelectedItem, Order } from './models/menu-item';
 
 @Component({
   selector: 'china-root',
@@ -8,7 +8,8 @@ import { SelectedItem } from './models/menu-item';
 })
 export class AppComponent {
   title = "China";
-  selected: SelectedItem ;
+  order: Order = new Order();
+
 
   color='red'
   do(){
@@ -16,6 +17,8 @@ export class AppComponent {
   }
 
   selectChanged(e: SelectedItem){
-    this.selected = e;
+    this.order.addItem(e)
+
   }
+
 }

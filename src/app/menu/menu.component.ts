@@ -9,7 +9,7 @@ import { DataService } from '../data.service';
 })
 export class MenuComponent implements OnInit {
 
-  @Input() selected: SelectedItem;
+  selected: SelectedItem;
   @Output() emitter: EventEmitter<SelectedItem> = new EventEmitter<SelectedItem>();
   cates: MenuCate[]
 
@@ -21,18 +21,18 @@ export class MenuComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.dataService.getMenuCates().subscribe(data=>{
+    this.dataService.getMenuCates().then(data=>{
       this.cates = data as MenuCate[];
+    }).catch(reason=>{
+      console.log("!!!!!!!!" + reason)
     })
   }
 
   selectItem(title: string, size: Size){
-      this.selected =  {
-        title : title,
-        label :size.Desc,
-        price : size.Price
-
-      }
+      this.selected = new SelectedItem();
+      this.selected.title = title;
+      this.selected.label = size.Desc;
+      this.selected.price = size.Price;
 
       this.emitter.emit(this.selected);
   }

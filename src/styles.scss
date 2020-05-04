@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+.lab{
+  color:purple;
+}
+
+
+.itemSize{
+  font-size: small;
+  font-weight: bold;
+  color:red
+}
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.orderCount{
+  width:50px
+}
