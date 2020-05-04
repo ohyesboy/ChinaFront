@@ -9,7 +9,8 @@
     <td >{{selected.title}}<span class="itemSize" [hidden]="!selected.label">({{selected.label}})</span>,
     </td>
     <td> {{selected.price}}</td>
-    <td><input type="text"[(ngModel)]="selected.count" class="orderCount" ></td>
+    <td><input *ngIf="!viewMode"  type="text"[(ngModel)]="selected.count" class="orderCount" />
+      <label *ngIf="viewMode" >{{selected.count}}</label></td>
   </tr>
 </table>
 

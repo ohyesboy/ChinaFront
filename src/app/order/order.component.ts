@@ -8,6 +8,6 @@ import { SelectedItem, Order } from '../models/menu-item';
 })
 export class OrderComponent {
   @Input() order: Order = new Order();
-
+  @Input() viewMode = false;
 
 }

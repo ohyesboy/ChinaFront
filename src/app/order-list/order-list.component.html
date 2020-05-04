@@ -1,1 +1,4 @@
-<china-order [order]="order"></china-order>
+<div *ngFor="let order of orders">
+  <china-order [order]="order" [viewMode]="true"></china-order>
+</div>
+

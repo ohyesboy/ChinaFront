@@ -8,6 +8,6 @@ import { Order } from '../models/menu-item';
 })
 export class OrderListComponent {
 
-  @Input() order: Order = new Order();
+  orders: Order[] = [];
 
 }

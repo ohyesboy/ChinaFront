@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { SelectedItem, Order } from './models/menu-item';
+import { OrderListComponent } from './order-list/order-list.component';
 
 @Component({
   selector: 'china-root',
@@ -9,7 +10,7 @@ import { SelectedItem, Order } from './models/menu-item';
 export class AppComponent {
   title = "China";
   order: Order = new Order();
-
+  @ViewChild(OrderListComponent) orderList:OrderListComponent;
 
   color='red'
   do(){
@@ -21,4 +22,8 @@ export class AppComponent {
 
   }
 
+  addOrder(){
+    this.orderList.orders.push(this.order);
+    this.order = new Order();
+  }
 }
