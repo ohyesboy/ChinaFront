@@ -145,6 +145,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "china"
+    }
+  },
+  "defaultProject": "china",
+  "cli": {
+    "analytics": "bd1bde3a-ffc9-4d23-99bf-4e9d4d433024"
+  }
 }

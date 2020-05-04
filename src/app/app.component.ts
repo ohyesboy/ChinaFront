@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SelectedItem } from './models/menu-item';
 
 @Component({
   selector: 'china-root',
@@ -6,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'china';
+  title = "China";
+  selected: SelectedItem ;
+
+  color='red'
+  do(){
+      this.color='blue'
+  }
+
+  selectChanged(e: SelectedItem){
+    this.selected = e;
+  }
 }

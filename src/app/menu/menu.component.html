@@ -1,0 +1,10 @@
+<div *ngIf="selected">You selected :{{selected.title}}({{selected.label}}), {{selected.price}}
+</div>
+<div *ngFor="let item of items">
+  <label>{{item.title}}</label>
+  <ul>
+    <li (click)="selectItem(item.title, s)" *ngFor="let s of item.size">${{s.price}}
+      <label   *ngIf="s.label" [ngClass]="{lab:true}"> ({{s.label}})</label>
+    </li>
+  </ul>
+</div>
