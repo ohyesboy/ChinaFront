@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { SelectedItem, Order } from '../models/menu-item';
+import { SelectedItem, Order, MenuItem } from '../models/menu-item';
 
 @Component({
   selector: 'china-order',
@@ -10,4 +10,7 @@ export class OrderComponent {
   @Input() order: Order = new Order();
   @Input() viewMode = false;
 
+  remove(item: SelectedItem){
+    this.order.items.splice(this.order.items.indexOf(item),1)
+  }
 }

@@ -1,18 +1,26 @@
-<table>
+<table style="margin: 20px 0;">
+  <tr><td colspan="3" *ngIf="viewMode">
+    Customer: {{order.CustomerName}}<br>
+    {{order.time| date:'shortTime'}}
+    <span>Total: {{order.getTotal() | currency}}</span>
+  </td></tr>
   <tr>
-    <th>Item</th>
-    <th>Price</th>
+    <th style="min-width:250px" >Item</th>
+    <th style="min-width:80px" >Price</th>
     <th>Count</th>
   </tr>
 
   <tr *ngFor="let selected of order.items">
     <td >{{selected.title}}<span class="itemSize" [hidden]="!selected.label">({{selected.label}})</span>,
     </td>
-    <td> {{selected.price}}</td>
-    <td><input *ngIf="!viewMode"  type="text"[(ngModel)]="selected.count" class="orderCount" />
-      <label *ngIf="viewMode" >{{selected.count}}</label></td>
+    <td> {{selected.price | currency}}</td>
+    <td *ngIf="!viewMode" >
+      <input type="text"[(ngModel)]="selected.count" class="orderCount" />
+      <button (click)="remove(selected)">X</button>
+    </td>
+    <td *ngIf="viewMode"><label >{{selected.count}}</label></td>
   </tr>
+
 </table>
+<span *ngIf="!viewMode">Total: {{order.getTotal() | currency}}</span>
 
-
-<span>Total: {{order.getTotal() | currency}}</span>

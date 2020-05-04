@@ -28,7 +28,7 @@ export class SelectedItem {
 
 export class Order {
   items: SelectedItem[] = [];
-  time: Time
+  time: Date
   CustomerName:string
 
 
@@ -40,7 +40,15 @@ export class Order {
   }
 
   addItem(e: SelectedItem){
-    this.items.push(e);
+    var found = this.items.find(x=>x.title == e.title);
+
+    if(found)
+    {
+      found.count++;
+    }else{
+      this.items.push(e);
+    }
+
 
   }
 }

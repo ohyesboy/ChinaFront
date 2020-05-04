@@ -8,14 +8,10 @@ import { OrderListComponent } from './order-list/order-list.component';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = "China";
+  filter = "";
   order: Order = new Order();
   @ViewChild(OrderListComponent) orderList:OrderListComponent;
 
-  color='red'
-  do(){
-      this.color='blue'
-  }
 
   selectChanged(e: SelectedItem){
     this.order.addItem(e)
@@ -24,6 +20,8 @@ export class AppComponent {
 
   addOrder(){
     this.orderList.orders.push(this.order);
+    this.order.time = new Date()
     this.order = new Order();
+
   }
 }

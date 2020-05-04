@@ -1,18 +1,23 @@
-Hello {{title}}
-
-<input [(ngModel)]="title" />
-<label [style.color]="color" >{{color}}</label>
-<button (click)="addOrder()">Add Order</button>
 
 <div style="float: left; width: 60%;">
-
-  <china-order [order]="order"></china-order>
-  <china-menu (emitter)="selectChanged($event)"></china-menu>
+Menu
+  <china-menu (emitter)="selectChanged($event)" [filter]="filter"></china-menu>
 </div>
 
 
 
 <div style="float: left; width: 35%;">
-  <china-order-list [order]="order"></china-order-list>
+  <div class="addOrder">
+    Search: <input [(ngModel)]="filter" (focus)="filter=''" /><br>
+    Customer: <input [(ngModel)]="order.CustomerName">
+    <button (click)="addOrder()">Add Order</button>
+    <div  style="background-color:rgb(238, 238, 238);"><china-order [order]="order"></china-order></div>
+
+
+  </div>
+
+  <hr/>
+
+  <china-order-list></china-order-list>
 </div>
 

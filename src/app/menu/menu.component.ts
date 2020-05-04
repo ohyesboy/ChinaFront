@@ -9,16 +9,13 @@ import { DataService } from '../data.service';
 })
 export class MenuComponent implements OnInit {
 
-  selected: SelectedItem;
+  @Input() filter:string
+
   @Output() emitter: EventEmitter<SelectedItem> = new EventEmitter<SelectedItem>();
   cates: MenuCate[]
 
-  /**
-   *
-   */
-  constructor(private dataService: DataService) {
 
-  }
+  constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
     this.dataService.getMenuCates().then(data=>{
@@ -29,11 +26,18 @@ export class MenuComponent implements OnInit {
   }
 
   selectItem(title: string, size: Size){
-      this.selected = new SelectedItem();
-      this.selected.title = title;
-      this.selected.label = size.Desc;
-      this.selected.price = size.Price;
+      var selected = new SelectedItem();
+      selected.title = title;
+      selected.label = size.Desc;
+      selected.price = size.Price;
 
-      this.emitter.emit(this.selected);
+      this.emitter.emit(selected);
+  }
+
+  filterItems(items: MenuItem[]): MenuItem[]{
+    if(!this.filter)
+      return items;
+    var ret = items.filter(x=>x && x.Name.toLowerCase().indexOf(this.filter.toLowerCase())>-1);
+    return ret;
   }
 }
