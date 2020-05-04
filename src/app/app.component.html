@@ -4,25 +4,15 @@ Hello {{title}}
 <label [style.color]="color" >{{color}}</label>
 <button (click)="do()">click</button>
 
-<table>
-  <tr>
-    <th>Item</th>
-    <th>Price</th>
-    <th>Count</th>
-  </tr>
+<div style="float: left; width: 60%;">
 
-  <tr *ngFor="let selected of order.items">
-    <td >{{selected.title}}<span class="itemSize" [hidden]="!selected.label">({{selected.label}})</span>,
-    </td>
-    <td> {{selected.price}}</td>
-    <td><input type="text"[(ngModel)]="selected.count" class="orderCount" ></td>
-  </tr>
-</table>
-
-
-<span>Total: {{order.getTotal() | currency}}</span>
-<china-menu (emitter)="selectChanged($event)"></china-menu>
+  <china-order [order]="order"></china-order>
+  <china-menu (emitter)="selectChanged($event)"></china-menu>
+</div>
 
 
 
+<div style="float: left; width: 35%;">
+  <china-order-list [order]="order"></china-order-list>
+</div>
 

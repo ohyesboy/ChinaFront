@@ -1,0 +1,17 @@
+<table>
+  <tr>
+    <th>Item</th>
+    <th>Price</th>
+    <th>Count</th>
+  </tr>
+
+  <tr *ngFor="let selected of order.items">
+    <td >{{selected.title}}<span class="itemSize" [hidden]="!selected.label">({{selected.label}})</span>,
+    </td>
+    <td> {{selected.price}}</td>
+    <td><input type="text"[(ngModel)]="selected.count" class="orderCount" ></td>
+  </tr>
+</table>
+
+
+<span>Total: {{order.getTotal() | currency}}</span>
