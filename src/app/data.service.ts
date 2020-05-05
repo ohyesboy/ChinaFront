@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { MenuCate } from './models/menu-item';
+import { MenuCate, Order } from './models/menu-item';
 import { of } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 
@@ -9,17 +9,48 @@ import { HttpClient } from '@angular/common/http';
 })
 export class DataService {
 
+  apiUrl = "http://localhost:5000/api/"
   constructor(private http:HttpClient) { }
 
   getMenuCates(){
-
-    return this.http.get("assets/chinaExpress.json").toPromise()
-
+    return this.http.get("assets/chinaExpress.json")
+    .toPromise()
     .catch(reason=>{
       console.log(reason.status)
-      return Promise.reject("blabla")
     });
+  }
 
+  getOrders(){
 
+    var url = this.apiUrl+"Orders";
+    //url = "assets/orders.json"
+    return this.http.get(url)
+    .toPromise().then((data: any)=>{
+
+      var orders  = data.map(x=>this.mapType(x, Order))
+      return orders
+
+    }).catch(reason=>console.log(reason))
+  }
+
+  addOrder(order: Order){
+    return this.http.post( this.apiUrl + "Orders", order)
+    .toPromise();
+  }
+
+  clearDone(){
+    return this.http.get( this.apiUrl + "Orders/clearDone")
+    .toPromise();
+  }
+
+  markDone(id: number){
+    return this.http.get( this.apiUrl + "Orders/done/"+id)
+    .toPromise();
+  }
+
+  mapType<T>(data, TCreator: { new (): T; }):T{
+    var o = new TCreator();
+    Object.assign(o, data);
+    return o;
   }
 }

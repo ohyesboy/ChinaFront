@@ -1,6 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { SelectedItem, Order } from './models/menu-item';
 import { OrderListComponent } from './order-list/order-list.component';
+import { DataService } from './data.service';
 
 @Component({
   selector: 'china-root',
@@ -12,6 +13,9 @@ export class AppComponent {
   order: Order = new Order();
   @ViewChild(OrderListComponent) orderList:OrderListComponent;
 
+  constructor(private dataService: DataService) {
+
+  }
 
   selectChanged(e: SelectedItem){
     this.order.addItem(e)
@@ -19,9 +23,13 @@ export class AppComponent {
   }
 
   addOrder(){
-    this.orderList.orders.push(this.order);
-    this.order.time = new Date()
+    this.orderList.addOrder(this.order);
     this.order = new Order();
+  }
 
+  clear(){
+    this.dataService.clearDone().then(data=>{
+      this.orderList.loadOrders();
+    })
   }
 }

@@ -11,7 +11,7 @@ export class MenuComponent implements OnInit {
 
   @Input() filter:string
 
-  @Output() emitter: EventEmitter<SelectedItem> = new EventEmitter<SelectedItem>();
+  @Output() onSelectItem: EventEmitter<SelectedItem> = new EventEmitter<SelectedItem>();
   cates: MenuCate[]
 
 
@@ -31,7 +31,7 @@ export class MenuComponent implements OnInit {
       selected.label = size.Desc;
       selected.price = size.Price;
 
-      this.emitter.emit(selected);
+      this.onSelectItem.emit(selected);
   }
 
   filterItems(items: MenuItem[]): MenuItem[]{

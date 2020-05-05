@@ -27,10 +27,11 @@ export class SelectedItem {
 
 
 export class Order {
+  id: number
   items: SelectedItem[] = [];
-  time: Date
-  CustomerName:string
-
+  time: any
+  customerName:string
+  done:boolean
 
   getTotal(){
     var total = 0;
@@ -40,7 +41,7 @@ export class Order {
   }
 
   addItem(e: SelectedItem){
-    var found = this.items.find(x=>x.title == e.title);
+    var found = this.items.find(x=>x.title == e.title && x.label == e.label);
 
     if(found)
     {

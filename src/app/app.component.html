@@ -1,17 +1,22 @@
 
-<div style="float: left; width: 60%;">
+<div style="float: left; width: 46%;">
 Menu
-  <china-menu (emitter)="selectChanged($event)" [filter]="filter"></china-menu>
+  <china-menu (onSelectItem)="selectChanged($event)" [filter]="filter"></china-menu>
 </div>
 
 
 
-<div style="float: left; width: 35%;">
+<div style="float: left; width: 46%;">
   <div class="addOrder">
-    Search: <input [(ngModel)]="filter" (focus)="filter=''" /><br>
-    Customer: <input [(ngModel)]="order.CustomerName">
-    <button (click)="addOrder()">Add Order</button>
-    <div  style="background-color:rgb(238, 238, 238);"><china-order [order]="order"></china-order></div>
+    <div style="margin: 10px;">Search: <input [(ngModel)]="filter" (focus)="filter=''" /></div>
+
+    Customer: <input [(ngModel)]="order.customerName">
+    <button (click)="addOrder()" [disabled]="!order.items">Add Order</button>
+
+    <div style="margin: 10px;"><button (click)="clear()">Clear Done Order</button></div>
+
+
+    <div class="editOrder"><china-order [order]="order"></china-order></div>
 
 
   </div>
