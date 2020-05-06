@@ -12,8 +12,8 @@
     <div class="addOrder">
 
 
-      Customer: <input [(ngModel)]="order.customerName">
-      <button (click)="addOrder()" [disabled]="!order.items">Add Order</button>
+
+      <button (click)="addOrder()" [disabled]="order.items.length==0">Add Order</button> for customer: <input [(ngModel)]="order.customerName"><br>
 
 
       <div class="editOrder"><china-order [order]="order"></china-order></div>

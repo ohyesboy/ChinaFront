@@ -17,7 +17,7 @@
     </td>
     <td> {{selected.price | currency}}</td>
     <td *ngIf="!viewMode" >
-      <input type="text"[(ngModel)]="selected.count" class="orderCount" />
+      <input style="width: 40px;" type="number"[(ngModel)]="selected.count" class="orderCount" />
       <button (click)="removeItem(selected)">X</button>
     </td>
     <td *ngIf="viewMode"><label >{{selected.count}}</label></td>
