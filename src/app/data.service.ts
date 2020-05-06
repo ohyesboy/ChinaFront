@@ -2,14 +2,14 @@ import { Injectable } from '@angular/core';
 import { MenuCate, Order } from './models/menu-item';
 import { of } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-
+import { environment } from './../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DataService {
 
-  apiUrl = "http://localhost:5000/api/"
+  apiUrl = environment.url
   constructor(private http:HttpClient) { }
 
   getMenuCates(){
