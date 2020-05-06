@@ -1,3 +1,4 @@
+{{time|date:'shortTime'}}
 <div [hidden]="!busy" class="loading">Busy loading...</div>
 <div *ngFor="let order of orders" [ngClass]="{preparingOrder: !order.done}">
   <china-order [order]="order" [viewMode]="true" (onMarkDone)="markOrderDone(order)"></china-order>

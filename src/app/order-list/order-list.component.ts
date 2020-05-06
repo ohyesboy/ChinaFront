@@ -8,7 +8,7 @@ import { ObjectMapper } from "json-object-mapper";
   styleUrls: ['./order-list.component.scss']
 })
 export class OrderListComponent implements OnInit {
-
+  time = new Date()
   orders: Order[] = [];
   busy = true;
 
@@ -33,8 +33,9 @@ export class OrderListComponent implements OnInit {
     this.busy = true;
     order.time = new Date();
 
-    this.dataService.addOrder(order).then((data: any)=>{
-      this.orders.splice(0, 0, order);
+    this.dataService.addOrder(order).then((newOrder: any)=>{
+      this.orders.splice(0, 0, newOrder);
+
       this.busy = false;
 
     })

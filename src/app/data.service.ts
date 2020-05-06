@@ -20,6 +20,17 @@ export class DataService {
     });
   }
 
+  getOrder(id){
+
+    var url = this.apiUrl+"Orders/"+id;
+    return this.http.get(url)
+    .toPromise().then((data: any)=>{
+      var orders  = this.mapType(data, Order)
+      return orders
+
+    }).catch(reason=>console.log(reason))
+  }
+
   getOrders(){
 
     var url = this.apiUrl+"Orders";
@@ -35,7 +46,7 @@ export class DataService {
 
   addOrder(order: Order){
     return this.http.post( this.apiUrl + "Orders", order)
-    .toPromise();
+    .toPromise().then(x=>this.mapType(x, Order));
   }
 
   clearDone(){

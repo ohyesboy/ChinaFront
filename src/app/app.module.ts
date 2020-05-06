@@ -7,17 +7,28 @@ import { DataService } from './data.service';
 import { HttpClientModule } from '@angular/common/http';
 import { OrderComponent } from './order/order.component';
 import { OrderListComponent } from './order-list/order-list.component';
+import { BackListComponent } from './back-list/back-list.component';
+import { RouterModule } from "@angular/router";
+import { PrintComponent } from './print/print.component';
+import { MainComponent } from './main/main.component';
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     OrderComponent,
-    OrderListComponent
+    OrderListComponent,
+    BackListComponent,
+    MainComponent,
+    PrintComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule .forRoot([
+      {path: "", "component": MainComponent},
+      {path: "print/:id", "component": PrintComponent}
+    ])
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
