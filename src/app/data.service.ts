@@ -24,11 +24,11 @@ export class DataService {
 
     var url = this.apiUrl+"Orders/"+id;
     return this.http.get(url)
-    .toPromise().then((data: any)=>{
-      var orders  = this.mapType(data, Order)
-      return orders
+      .toPromise().then((data: any)=>{
+      var order  = this.mapType(data, Order)
+      return order;
 
-    }).catch(reason=>console.log(reason))
+    });
   }
 
   getOrders(){

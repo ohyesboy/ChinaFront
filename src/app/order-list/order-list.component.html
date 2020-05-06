@@ -1,6 +1,14 @@
-{{time|date:'shortTime'}}
-<div [hidden]="!busy" class="loading">Busy loading...</div>
-<div *ngFor="let order of orders" [ngClass]="{preparingOrder: !order.done}">
-  <china-order [order]="order" [viewMode]="true" (onMarkDone)="markOrderDone(order)"></china-order>
+
+<div [hidden]="!busy" class="loading">Loading Orders...</div>
+<span [hidden]="true">Last refresh: {{refreshTime | date: 'hh:mm:ss'}}</span>
+<div [hidden]="backMode" style="margin: 10px;"><button (click)="clearDone()">Clear Done Order</button></div>
+
+<div *ngFor="let order of orders" [ngClass]="{preparingOrder: !order.done}" [hidden]="backMode && order.done">
+
+  <button  [hidden]="!backMode"style="margin: 5px;float: right;" (click)="markOrderDone(order)">Done</button>
+  <a [hidden]="backMode" style="margin: 5px;float: right;" target="popup" [routerLink]="['/print/'+order.id]"
+  onclick="window.open('','popup','width=600,height=600'); ">Print</a>
+
+  <china-order [order]="order" [viewMode]="true"></china-order>
 </div>
 

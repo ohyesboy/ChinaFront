@@ -8,11 +8,17 @@ import { ObjectMapper } from "json-object-mapper";
   styleUrls: ['./order-list.component.scss']
 })
 export class OrderListComponent implements OnInit {
-  time = new Date()
+
   orders: Order[] = [];
   busy = true;
-
-  constructor(private dataService: DataService) {}
+  @Input() backMode :Boolean;
+  refreshTime = Date.now();
+  constructor(private dataService: DataService) {
+    setInterval(()=>{
+        this.loadOrders()
+        this.refreshTime = Date.now();
+    },10000)
+  }
 
   ngOnInit(): void {
     this.loadOrders();
@@ -45,6 +51,12 @@ export class OrderListComponent implements OnInit {
     this.dataService.markDone(order.id).then((data: any)=>{
       this.loadOrders();
 
+    })
+  }
+
+  clearDone(){
+    this.dataService.clearDone().then(data=>{
+      this.loadOrders();
     })
   }
 

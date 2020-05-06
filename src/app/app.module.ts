@@ -27,6 +27,7 @@ import { MainComponent } from './main/main.component';
     HttpClientModule,
     RouterModule .forRoot([
       {path: "", "component": MainComponent},
+      {path: "phone", "component": BackListComponent},
       {path: "print/:id", "component": PrintComponent}
     ])
   ],

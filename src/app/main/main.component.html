@@ -1,19 +1,19 @@
 
-<div style="float: left; width: 46%;">
-  Menu {{apiUrl}}
+<audio id="myAudio"></audio>
+
+<div style="float: left; width: 50%;">
+    <div style="margin: 10px;">Search: <input [(ngModel)]="filter" (focus)="filter=''" /></div>
     <china-menu (onSelectItem)="selectChanged($event)" [filter]="filter"></china-menu>
-  </div>
+</div>
 
 
 
   <div style="float: left; width: 46%;">
     <div class="addOrder">
-      <div style="margin: 10px;">Search: <input [(ngModel)]="filter" (focus)="filter=''" /></div>
+
 
       Customer: <input [(ngModel)]="order.customerName">
       <button (click)="addOrder()" [disabled]="!order.items">Add Order</button>
-
-      <div style="margin: 10px;"><button (click)="clear()">Clear Done Order</button></div>
 
 
       <div class="editOrder"><china-order [order]="order"></china-order></div>

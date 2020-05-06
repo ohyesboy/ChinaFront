@@ -1,13 +1,10 @@
 <table style="margin: 20px 0; width: 100%;">
   <tr><td colspan="3" *ngIf="viewMode">
-    <span style="font-size:30px; font-weight:bold">{{order.id}}</span>
-    Customer: {{order.customerName}}<br>
-    {{order.time| date:'shortTime'}}
-    <span>Total: {{order.getTotal() | currency}}</span>
+    <span style="font-size:30px;">No.<span style="font-weight:bold">{{order.id}}</span></span><br>
 
-    <button style="margin: 5px;float: right;" (click)="onMarkDone.emit()">Done</button>
-    <a style="margin: 5px;float: right;" target="popup" [routerLink]="['/print/'+order.id]"
-    onclick="window.open('','popup','width=600,height=600'); ">Print</a>
+    {{order.time| date:'shortTime'}}  <span *ngIf="order.customerName"> for: {{order.customerName}}</span>
+
+
   </td></tr>
   <tr>
     <th style="width: 260px" >Item</th>
@@ -25,7 +22,11 @@
     </td>
     <td *ngIf="viewMode"><label >{{selected.count}}</label></td>
   </tr>
-
+  <tr>
+    <td>Total:</td>
+    <td><span> {{order.getTotal() | currency}}</span></td>
+    <td></td>
+  </tr>
 </table>
 <span *ngIf="!viewMode">Total: {{order.getTotal() | currency}}</span>
 

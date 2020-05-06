@@ -15,7 +15,9 @@ export class PrintComponent implements OnInit {
 
   constructor(private route:ActivatedRoute,private dataService: DataService) {
     var id = route.snapshot.paramMap.get('id');
-    dataService.getOrder(id).then(data=> this.order = data as Order)
+    dataService.getOrder(id).then(data=>
+      this.order = data as Order
+      )
    }
 
   ngOnInit(): void {

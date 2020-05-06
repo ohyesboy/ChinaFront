@@ -9,7 +9,6 @@ import { environment } from '../../environments/environment';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent{
-  apiUrl = environment.url
   filter = "";
   order: Order = new Order();
   @ViewChild(OrderListComponent) orderList:OrderListComponent;
@@ -26,12 +25,9 @@ export class MainComponent{
   addOrder(){
     this.orderList.addOrder(this.order);
     this.order = new Order();
-  }
-
-  clear(){
-    this.dataService.clearDone().then(data=>{
-      this.orderList.loadOrders();
-    })
+    var x = document.getElementById("myAudio") as any;
+    x.setAttribute("src","/assets/Alarm02.wav");
+    x.play();
   }
 
 }
