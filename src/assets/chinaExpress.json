@@ -2515,7 +2515,7 @@
             "Desc": "Can"
           }
         ],
-        "Name": "Soda"
+        "Name": "+ Soda"
       },
       {
         "Variations": [
@@ -2528,7 +2528,7 @@
             "Desc": "Qt."
           }
         ],
-        "Name": "White Rice"
+        "Name": "+ White Rice"
       },
       {
         "Variations": [
@@ -2537,7 +2537,7 @@
             "Desc": null
           }
         ],
-        "Name": "Fortune Cookies (4 pcs)"
+        "Name": "+ Fortune Cookies (4 pcs)"
       },
       {
         "Variations": [
@@ -2546,9 +2546,41 @@
             "Desc": null
           }
         ],
-        "Name": "Crispy Noodles (A Bag)"
+        "Name": "+ Crispy Noodles (A Bag)"
       }
     ],
     "Name": "SIDE ORDER"
+  },
+  {
+    "Items": [
+      {"Variations": [{"Price": 1.0,"Desc": "" }],"Name": "+ Broccoli"},
+      {"Variations": [{"Price": 1.0,"Desc": "" }],"Name": "+ Snow Pea"},
+      {"Variations": [{"Price": 1.0,"Desc": "" }],"Name": "+ Onion"},
+      {"Variations": [{"Price": 1.0,"Desc": "" }],"Name": "+ Pepper"},
+      {"Variations": [{"Price": 1.0,"Desc": "" }],"Name": "+ Carrot"},
+      {"Variations": [{"Price": 1.0,"Desc": "" }],"Name": "+ Water Chesnut"},
+      {"Variations": [{"Price": 1.0,"Desc": "" }],"Name": "+ Bamboo"},
+      {"Variations": [{"Price": 1.0,"Desc": "" }],"Name": "+ Bean Sprout"},
+      {"Variations": [{"Price": 1.0,"Desc": "" }],"Name": "+ Corn"},
+      {"Variations": [{"Price": 1.0,"Desc": "" }],"Name": "+ Mushroom"},
+      {"Variations": [{"Price": 1.0,"Desc": "" }],"Name": "+ Egg"},
+
+
+      {"Variations": [{"Price": 2.0,"Desc": "" }],"Name": "+ Chicken"},
+      {"Variations": [{"Price": 2.0,"Desc": "" }],"Name": "+ Beef"},
+      {"Variations": [{"Price": 2.0,"Desc": "" }],"Name": "+ Pork"},
+      {"Variations": [{"Price": 2.0,"Desc": "" }],"Name": "+ Shrimp"},
+      {"Variations": [{"Price": 2.0,"Desc": "" }],"Name": "+ Crab meat"},
+
+
+      {"Variations": [{"Price": 1,"Desc": "" }],"Name": "+ Chicken Rice"},
+      {"Variations": [{"Price": 1,"Desc": "" }],"Name": "+ Beef Rice"},
+      {"Variations": [{"Price": 1,"Desc": "" }],"Name": "+ Shrimp Rice"},
+      {"Variations": [{"Price": 2.5,"Desc": "" }],"Name": "+ House Rice"},
+
+      {"Variations": [{"Price": 2.0,"Desc": "" }],"Name": "+ Lo Mein"},
+      {"Variations": [{"Price": 2.0,"Desc": "" }],"Name": "+ Checken Lo Mein"}
+    ],
+    "Name": "Additional options"
   }
 ]

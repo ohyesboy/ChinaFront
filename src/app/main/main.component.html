@@ -2,7 +2,14 @@
 <audio id="myAudio"></audio>
 
 <div style="float: left; width: 50%;">
-    <div style="margin: 10px;">Search: <input [(ngModel)]="filter" (focus)="filter=''" /></div>
+    <div style="margin: 10px;">Search: <input [(ngModel)]="filter" (focus)="filter=''" /> </div>
+    <div>
+      <button (click)="filter='+'">Additional</button>
+      <button (click)="filter='Chicken'">Chicken</button>
+      <button (click)="filter='Beef'">Beef</button>
+      <button (click)="filter='Shrimp'">Shrimp</button>
+      <button (click)="filter='Lo Mein'">Lo Mein</button>
+    </div>
     <china-menu (onSelectItem)="selectChanged($event)" [filter]="filter"></china-menu>
 </div>
 

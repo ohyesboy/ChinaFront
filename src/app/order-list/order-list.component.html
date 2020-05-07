@@ -3,12 +3,44 @@
 <span [hidden]="true">Last refresh: {{refreshTime | date: 'hh:mm:ss'}}</span>
 <div [hidden]="backMode" style="margin: 10px;"><button (click)="clearDone()">Clear Done Order</button></div>
 
-<div *ngFor="let order of orders" [ngClass]="{preparingOrder: !order.done}" [hidden]="backMode && order.done">
 
-  <button  [hidden]="!backMode"style="margin: 5px;float: right;" (click)="markOrderDone(order)">Done</button>
-  <a [hidden]="backMode" style="margin: 5px;float: right;" target="popup" [routerLink]="['/print/'+order.id]"
-  onclick="window.open('','popup','width=600,height=600'); ">Print</a>
+<div *ngIf="!backMode">
+  <div *ngFor="let order of orders" [ngClass]="{preparingOrder: !order.done}" >
 
-  <china-order [order]="order" [viewMode]="true"></china-order>
+    <a style="margin: 5px;float: right;" target="popup" [routerLink]="['/print/'+order.id]"
+    onclick="window.open('','popup','width=600,height=600'); ">Print</a>
+
+    <china-order [order]="order" [viewMode]="true"></china-order>
+  </div>
+
 </div>
 
+<div *ngIf="backMode">
+  <div *ngFor="let order of orders" [ngClass]="{preparingOrder: !order.done}" [hidden]="order.done" >
+
+    <button  [hidden]="!backMode"style="margin: 5px;float: right;" (click)="markOrderDone(order)">Done</button>
+    <a [hidden]="backMode" style="margin: 5px;float: right;" target="popup" [routerLink]="['/print/'+order.id]"
+    onclick="window.open('','popup','width=600,height=600'); ">Print</a>
+
+    <table style="margin: 20px 0; width: 100%;">
+      <tr><td colspan="2">
+        <span style="font-size:30px;">No.<span style="font-weight:bold">{{order.id}}</span></span><br>
+
+        {{order.time| date:'shortTime'}}  <span *ngIf="order.customerName"> for: {{order.customerName}}</span>
+      </td></tr>
+      <tr>
+        <th >Item</th>
+        <th>Count</th>
+      </tr>
+
+      <tr *ngFor="let selected of order.items">
+        <td >{{selected.title}}<span class="itemSize" [hidden]="!selected.label">({{selected.label}})</span>,
+        </td>
+        <td ><label >{{selected.count}}</label></td>
+      </tr>
+
+    </table>
+
+  </div>
+
+</div>
