@@ -19,7 +19,9 @@ export class MainComponent{
 
   selectChanged(e: SelectedItem){
     this.order.addItem(e)
-
+    var x = document.getElementById("myAudio") as any;
+    x.setAttribute("src","/assets/select.wav");
+    x.play();
   }
 
   addOrder(){

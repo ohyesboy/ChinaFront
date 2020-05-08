@@ -2,6 +2,8 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Order } from '../models/menu-item';
 import { DataService } from '../data.service';
 import { ObjectMapper } from "json-object-mapper";
+import { Time } from '@angular/common';
+import { TimeoutError } from 'rxjs';
 @Component({
   selector: 'china-order-list',
   templateUrl: './order-list.component.html',
@@ -11,27 +13,47 @@ export class OrderListComponent implements OnInit {
 
   orders: Order[] = [];
   busy = true;
+  lastUpdate: Date;
+  timer: any
   @Input() backMode :Boolean;
-  refreshTime = Date.now();
+  refreshTime: any;
   constructor(private dataService: DataService) {
-    setInterval(()=>{
-        this.loadOrders()
-        this.refreshTime = Date.now();
-    },10000)
+
   }
 
   ngOnInit(): void {
-    this.loadOrders();
+    this.loadOrders(false);
+    this.timer = setInterval(()=>{
+        this.loadOrders(true)
+    },6000)
   }
-
-  loadOrders(){
+  ngOnDestroy() {
+    if (this.timer) {
+      clearInterval(this.timer);
+    }
+  }
+  loadOrders(refresh: boolean = false){
     this.busy = true;
-    this.dataService.getOrders().then((data: any)=>{
 
-      this.orders  = data;
-      this.busy = false;
+    if(!refresh){
+      this.dataService.getOrders().then((data: any)=>{
 
-    })
+        this.orders  = data.orders;
+        this.busy = false;
+        this.lastUpdate =  data.time
+      })
+    }
+    else{
+      this.dataService.refresh(this.lastUpdate).then((data: any)=>{
+        this.busy = false;
+
+        if(data.orders != null)
+          this.orders  = data.orders;
+          this.lastUpdate = data.time
+
+      })
+    }
+
   }
 
   addOrder(order: Order): void {

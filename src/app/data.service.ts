@@ -34,12 +34,24 @@ export class DataService {
   getOrders(){
 
     var url = this.apiUrl+"Orders";
-    //url = "assets/orders.json"
     return this.http.get(url)
     .toPromise().then((data: any)=>{
 
-      var orders  = data.map(x=>this.mapType(x, Order))
-      return orders
+      data.orders  = data.orders.map(x=>this.mapType(x, Order))
+      return data;
+
+    }).catch(reason=>console.log(reason))
+  }
+
+  refresh(time: any){
+
+    var url = this.apiUrl+"Orders/refresh";
+    return this.http.post(url, {time:time})
+    .toPromise().then((data: any)=>{
+      if(data.orders == null)
+        return null;
+        data.orders = data.orders.map(x=>this.mapType(x, Order))
+      return data
 
     }).catch(reason=>console.log(reason))
   }

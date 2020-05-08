@@ -1,5 +1,5 @@
 
-<div [hidden]="!busy" class="loading">Loading Orders...</div>
+
 <span [hidden]="true">Last refresh: {{refreshTime | date: 'hh:mm:ss'}}</span>
 <div [hidden]="backMode" style="margin: 10px;"><button (click)="clearDone()">Clear Done Order</button></div>
 
@@ -7,8 +7,7 @@
 <div *ngIf="!backMode">
   <div *ngFor="let order of orders" [ngClass]="{preparingOrder: !order.done}" >
 
-    <a style="margin: 5px;float: right;" target="popup" [routerLink]="['/print/'+order.id]"
-    onclick="window.open('','popup','width=600,height=600'); ">Print</a>
+    <a style="margin: 5px;float: right;" [routerLink]="['/print/'+order.id]">Print</a>
 
     <china-order [order]="order" [viewMode]="true"></china-order>
   </div>
@@ -19,9 +18,6 @@
   <div *ngFor="let order of orders" [ngClass]="{preparingOrder: !order.done}" [hidden]="order.done" >
 
     <button  [hidden]="!backMode"style="margin: 5px;float: right;" (click)="markOrderDone(order)">Done</button>
-    <a [hidden]="backMode" style="margin: 5px;float: right;" target="popup" [routerLink]="['/print/'+order.id]"
-    onclick="window.open('','popup','width=600,height=600'); ">Print</a>
-
     <table style="margin: 20px 0; width: 100%;">
       <tr><td colspan="2">
         <span style="font-size:30px;">No.<span style="font-weight:bold">{{order.id}}</span></span><br>
@@ -44,3 +40,5 @@
   </div>
 
 </div>
+
+<div [hidden]="!busy" class="loading">Loading Orders...</div>
